@@ -6,14 +6,14 @@
   "engines": {
     "gitbook": ">=3.x.x"
   },
-  "homepage": "https://github.com/lrlucena/gitbook-plugin-ace",
+  "homepage": "https://github.com/lrlucena/gitbook-plugin-ace-potigol",
   "repository": {
     "type": "git",
-    "url": "https://github.com/lrlucena/gitbook-plugin-ace.git"
+    "url": "https://github.com/lrlucena/gitbook-plugin-ace-potigol.git"
   },
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ymcatar/gitbook-plugin-ace/issues"
+    "url": "https://github.com/ymcatar/gitbook-plugin-ace-potigol/issues"
   },
   "dependencies": {
     "highlight.js": "^9.3.0",
