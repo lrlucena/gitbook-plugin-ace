@@ -1,15 +1,15 @@
 {
-  "name": "gitbook-plugin-ace",
+  "name": "gitbook-plugin-ace-potigol",
   "description": "Ace, code editor plugin for GitBook",
   "main": "index.js",
   "version": "0.3.2",
   "engines": {
     "gitbook": ">=3.x.x"
   },
-  "homepage": "https://github.com/ymcatar/gitbook-plugin-ace",
+  "homepage": "https://github.com/lrlucena/gitbook-plugin-ace",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ymcatar/gitbook-plugin-ace.git"
+    "url": "https://github.com/lrlucena/gitbook-plugin-ace.git"
   },
   "license": "GPL-3.0",
   "bugs": {
