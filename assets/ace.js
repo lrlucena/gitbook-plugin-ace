@@ -15,12 +15,15 @@ require(["gitbook", "jquery"], function (gitbook, $) {
         autoScrollEditorIntoView: true,
         maxLines: 100
       });
+      editor.setFontSize(14);
+      editor.setShowPrintMargin(false);
+      editor.setHighlightActiveLine(false);
 
       if (!config.edit)
         editor.setReadOnly(true);
 
       if (!config.theme)
-        editor.setTheme('ace/theme/chrome');
+        editor.setTheme('ace/theme/github');
       else
         editor.setTheme('ace/theme/' + config.theme);
 
