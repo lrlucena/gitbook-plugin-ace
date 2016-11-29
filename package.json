@@ -2,7 +2,7 @@
   "name": "gitbook-plugin-ace-potigol",
   "description": "Ace, code editor plugin for GitBook",
   "main": "index.js",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "engines": {
     "gitbook": ">=3.x.x"
   },
