@@ -35,6 +35,10 @@ module.exports = {
 		assets: "./assets",
 		css: [
 			"pdf.css"
+		],
+		js: [
+			"ace/ace.js",
+			"ace.js"
 		]
 	},
 
@@ -52,15 +56,15 @@ module.exports = {
 					check: getParams(header, 'check') || false,
 					theme: getParams(header, 'theme') || false,
 				};
-				if (self.output.name === 'website') {
+			//	if (self.output.name === 'website') {
 					newBody = '<div class="ace"><div class="aceCode" data-config=' + JSON.stringify(config) + '>{%raw%}' + escape(body) + '{%endraw%}<br></div></div>';
-				} else {
-					config.lang = map[config.lang] || config.lang;
-					if (hljs.getLanguage(config.lang)) {
-						body = hljs.highlightAuto(body, [config.lang]).value;
-					}
-					newBody = '<pre><code class="hljs lang-' + config.lang + '">' + body + '</code></pre>';
-				}
+			//	} else {
+			//		config.lang = map[config.lang] || config.lang;
+			//		if (hljs.getLanguage(config.lang)) {
+			//			body = hljs.highlightAuto(body, [config.lang]).value;
+			//		}
+			//		newBody = '<pre><code class="hljs lang-' + config.lang + '">' + body + '</code></pre>';
+			//	}
 				page.content = page.content.replace(block, newBody);
 			});
 			return page;
